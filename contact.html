@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- HTML5 Doctype -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Get in touch with us to share feedback, ask questions, or inquire about BBQ spots in Noorderpark.">
+    <meta name="keywords" content="contact, Noorderpark BBQ, feedback, BBQ inquiries, Amsterdam parks">
+
+    <title>My Enhanced Web Page</title> <!-- Page title element -->
+    <link rel="icon" href="favicon.ico/favicon-16x16.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body> 
+    <header>
+        <a href="index.html">
+            <img class="logo" src="img/Logo.webp.png" alt="Logo" title="Logo of Chill & Grill">
+        </a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bbqbestspots.html">BBQ best spots</a></li>
+                <li><a href="noorderparktips.html">Noorderpark tips</a></li>
+                <li><a href="preperefortheBBQ.html">Prepare for the BBQ</a></li>
+                <li><a href="bbqrules.html">BBQ rules</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="contact.html">Contact</a>
+    </header>
+
+    <section class="title-section1">
+        <h1 class="emphasis">Contact Us Here</h1>
+    </section>
+
+    <section class="section21">
+        <figure>
+            <figcaption class="p21">
+                Want to get in touch or give your suggestions to improve this website?<strong> Fill the form and let's talk!</strong> 
+            </figcaption>
+            <!-- Image or any other content can go here if needed -->
+        </figure>
+    </section>
+
+    <section class="section22">
+        <form class="form" action="http://localhost/con/submit.php">
+            <fieldset>
+                <legend>Contact form:</legend>
+                
+                <section class="radiobutton">
+                    <label class="title-label" for="Mr">Title:</label>
+                    <label class="choice">
+                        <input type="radio" id="Mr" name="gender" value="male" class="radiobutton1">
+                        Mr.
+                    </label>
+                    <label class="choice">
+                        <input type="radio" id="Mrs" name="gender" value="female" class="radiobutton2">
+                        Ms.
+                    </label>
+                    <label class="choice">
+                        <input type="radio" id="Other" name="gender" value="other" class="radiobutton3">
+                        Other
+                    </label>
+                </section>
+                
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="email" placeholder="Your Email">
+                
+                <label for="Pnumber">Phone Number</label>
+                <input type="text" id="Pnumber" name="Pnumber" placeholder="Your Phone Number">
+                
+                <label for="subject">Message Us</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="image-section">
+        <img class="image" src="img/contactpic1.png" alt="Bridge" title="Noorderpark bridge" >
+        <img class="image" src="img/contactpic2.png" alt="flowers" title="Some flowers from Nooderpark entrance">
+        <img class="image"src="img/contactpic3.png" alt="couple" title="Couple enjoying time in Noorderpark">
+    </section>
+
+    <footer class="footer">
+        <section class="container">
+            <section class="row">
+                <section class="footer-col">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bbqbestspots.html">BBQ Best Spots</a></li>
+                        <li><a href="noorderparktips.html">Noorderpark Tips</a></li>
+                    </ul>
+                </section>
+                <section class="footer-col">
+                    <ul>
+                        <li><a href="preparefortheBBQ.html">Prepare for the BBQ</a></li>
+                        <li><a href="bbqrules.html">BBQ Rules</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </section>
+                <section class="footer-col2">
+                    <img class="logo" src="img/Logo.webp.png" alt="Logo" title="Logo of Chill & Grill">
+                    <p>&copy; 2024 My Website. All rights reserved.</p>
+                </section>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>
